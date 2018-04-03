@@ -86,13 +86,6 @@ var board = {
     $element: $('#board .column-container')
 };
 
-function initSortable() {
-   $('.column-card-list').sortable({
-     connectWith: '.column-card-list',
-     placeholder: 'card-placeholder'
-   }).disableSelection();
- }
-
  function initSortable() {
     $('.column-card-list').sortable({
       connectWith: '.column-card-list',
